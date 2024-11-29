@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprovador de Tags i Conceptes</title>
+    <link rel="stylesheet" href="respon.css">
+</head>
+<body>
+    <h1>Comprovador de Tags i Conceptes</h1>
+    <label for="llenguatge">Selecciona un llenguatge:</label>
+    <select id="llenguatge">
+        <option value="tots">Tots</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="logo">Logo</option>
+        <option value="karel">Karel</option>
+    </select>
+    <textarea id="textArea" placeholder="Escriu aquí el que vols comprovar..."></textarea>
+    <button id="checkButton">Comprova</button>
+    <button id="showTagsButton">¿No saps cap tag o concepte?</button>
+    <p id="resultat"></p>
+    <script src="respon.js"></script>
+</body>
+</html>
